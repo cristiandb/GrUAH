@@ -1,0 +1,67 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ButtonGruas" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/gruas_btn_default_holo_light</item>
+    </style>
+
+    <style name="ImageButtonGruas" parent="android:Widget.Holo.Light.ImageButton">
+        <item name="android:background">@drawable/gruas_btn_default_holo_light</item>
+    </style>
+
+    <style name="SpinnerGruas" parent="android:Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/gruas_spinner_background_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/gruas_list_selector_holo_light</item>
+    </style>
+
+    <style name="ProgressBarGruas" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/gruas_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/gruas_progress_indeterminate_horizontal_holo_light</item>
+    </style>
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    <style name="ActionBar.Solid.Myorange" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_myorange</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_myorange</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_myorange</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Myorange</item>
+        <item name="android:textColor">@color/gruas_color</item>
+        <item name="android:color">@color/gruas_color</item>
+        <item name="android:titleTextStyle">@style/ActionBar.TitleTextStyle.Myorange.</item>
+    </style>
+
+
+    <style name="ActionBar.TitleTextStyle.Myorange." parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFF</item>
+    </style>
+    <style name="ActionBar.Transparent.Myorange" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_myorange</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Myorange</item>
+    </style>
+
+    <style name="PopupMenu.Myorange" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_myorange</item>
+    </style>
+
+    <style name="DropDownListView.Myorange" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_myorange</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Myorange" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_myorange</item>
+    </style>
+
+    <style name="DropDownNav.Myorange" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_myorange</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_myorange</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_myorange</item>
+    </style>
+
+    <style name="ProgressBar.Myorange" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_myorange</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Myorange" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_myorange</item>
+    </style>
+</resources>

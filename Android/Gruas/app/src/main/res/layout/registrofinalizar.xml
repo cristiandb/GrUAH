@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center_vertical"
+    android:background="#FFF">
+
+    <TextView
+        android:text="Finalizar el registro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FF8800"
+        android:id="@+id/tituloRegistroFinalizar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bienvenido"
+        android:textSize="15sp"
+        android:id="@+id/bienvenido"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/tituloRegistroFinalizar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nombre y Apellidos"
+        android:textStyle="bold"
+        android:id="@+id/nombre"
+        android:textSize="20sp"
+        android:textColor="#FF8800"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/bienvenido"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="¿Desea registrarse con el siguiente id de usuario?"
+        android:id="@+id/textoPregunta"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/nombre"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FF8800"
+        android:text="Nombre de Usuario"
+        android:textStyle="bold"
+        android:id="@+id/usuario"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textoPregunta"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pulse el botón de confirmar para finalizar el registro"
+        android:gravity="center"
+        android:id="@+id/descripcionFinalizar"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/usuario"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Confirmar"
+        android:id="@+id/FinalizarRegistro"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:layout_below="@+id/descripcionFinalizar"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+

@@ -1,0 +1,99 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/estadisticasEvolucion"
+        android:orientation="vertical"
+        >
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="6dp"
+         android:layout_marginRight="6dp"
+         android:layout_marginTop="4dp"
+         android:layout_marginBottom="4dp"
+         android:background="@drawable/bg_card"
+         android:orientation="vertical"
+         >
+
+         <LinearLayout
+             android:layout_marginTop="20dp"
+             android:orientation="horizontal"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="right">
+             <TextView
+                 android:layout_width="0dip"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:text="Seleccionar datos:"
+                 android:id="@+id/tvSeleccionar"
+                 />
+             <Spinner
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/spinnerevolucion"
+
+                 />
+
+         </LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+         <com.gruas.app.holographlibrary.LineGraph
+             android:layout_width="match_parent"
+             android:layout_height="200dp"
+             android:id="@+id/graphevolucion"/>
+
+</LinearLayout>
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="6dp"
+         android:layout_marginRight="6dp"
+         android:layout_marginTop="4dp"
+         android:layout_marginBottom="4dp"
+         android:background="@drawable/bg_card"
+         android:orientation="vertical"
+         >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Negro = Total"
+             android:textColor="#000000"
+             android:id="@+id/textView0"
+             android:layout_marginLeft="75dp"
+             />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Rojo = Rechazado"
+             android:textColor="#CC0000"
+             android:id="@+id/textView1"
+             android:layout_marginLeft="75dp"
+             android:layout_marginTop="5dp"
+             />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Verde = Finalizado"
+             android:textColor="#669900"
+             android:id="@+id/textView2"
+             android:layout_marginLeft="75dp"
+             android:layout_marginTop="5dp"
+             />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Naranja = Servicios Pendientes"
+             android:textColor="#FF8800"
+             android:id="@+id/textView3"
+             android:layout_marginLeft="75dp"
+             android:layout_marginTop="5dp"
+             />
+         </LinearLayout>
+ </LinearLayout>

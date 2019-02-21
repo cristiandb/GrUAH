@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center_vertical"
+    android:background="#FFF">
+
+    <TextView
+        android:text="@string/tituloInicioRegistro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#FF8800"
+        android:id="@+id/tituloRegistroFinalizar"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textoInicioRegistro"
+        android:id="@+id/descripcionInicio"
+        android:layout_below="@+id/tituloRegistroFinalizar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageInicioRegistro"
+        android:layout_below="@+id/descripcionInicio"
+        android:layout_alignParentLeft="false"
+        android:src="@drawable/imagen_registro"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="14dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ya tengo un usuario"
+        android:id="@+id/noRegistro"
+        android:layout_centerVertical="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageInicioRegistro"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonInicioRegistro"
+        android:id="@+id/SiguienteInicio"
+        android:layout_centerVertical="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_below="@+id/noRegistro"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        />
+
+
+
+</RelativeLayout>

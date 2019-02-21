@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/radial">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/usuarioLogin"
+        android:background="@drawable/rounded_corner"
+        android:hint="@string/loginUsuario"
+        android:layout_marginBottom="26dp"
+        android:layout_above="@+id/passLogin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passLogin"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_corner"
+        android:hint="@string/loginPassword"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botonLogin"
+        android:id="@+id/botonLogin"
+        android:layout_below="@+id/passLogin"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/usuarioLogin"
+        android:id="@+id/logo"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="@string/tituloLogin"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3" />
+
+
+    <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layoutBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        >
+    <TextView
+        android:id="@+id/registroLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:text="@string/label_registro"
+        android:textIsSelectable="false" />
+
+
+</RelativeLayout >
+
+</RelativeLayout>

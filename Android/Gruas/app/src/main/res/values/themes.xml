@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Gruas" parent="@style/_Gruas"/>
+
+  <style name="_Gruas" parent="android:Theme.Holo.Light.DarkActionBar">
+
+     <item name="android:icon">@drawable/ic_action_grua</item>
+    <item name="android:editTextBackground">@drawable/gruas_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#99ff8800</item>
+    <item name="android:textSelectHandleLeft">@drawable/gruas_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/gruas_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/gruas_text_select_handle_middle</item>
+
+    <item name="android:buttonStyle">@style/ButtonGruas</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonGruas</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerGruas</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarGruas</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/gruas_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/gruas_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/gruas_fastscroll_thumb_holo</item>
+
+
+          <item name="android:actionBarItemBackground">@drawable/selectable_background_myorange</item>
+          <item name="android:popupMenuStyle">@style/PopupMenu.Myorange</item>
+          <item name="android:dropDownListViewStyle">@style/DropDownListView.Myorange</item>
+          <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Myorange</item>
+          <item name="android:actionDropDownStyle">@style/DropDownNav.Myorange</item>
+          <item name="android:actionBarStyle">@style/ActionBar.Solid.Myorange</item>
+          <item name="android:actionModeBackground">@drawable/cab_background_top_myorange</item>
+          <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_myorange</item>
+          <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Myorange</item>
+      <item name="android:actionBarTabTextStyle">@color/gruas_color</item>
+
+  </style>
+    <style name="GruasSinBarra" parent="@style/_GruasSinBarra"/>
+
+    <style name="_GruasSinBarra" parent="android:Theme.Holo.Light.NoActionBar">
+
+        <item name="android:editTextBackground">@drawable/gruas_edit_text_holo_light</item>
+
+        <item name="android:textColorHighlight">#99ff8800</item>
+        <item name="android:textSelectHandleLeft">@drawable/gruas_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/gruas_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/gruas_text_select_handle_middle</item>
+
+        <item name="android:buttonStyle">@style/ButtonGruas</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtonGruas</item>
+
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarGruas</item>
+
+        <item name="android:listChoiceBackgroundIndicator">@drawable/gruas_list_selector_holo_light</item>
+
+        <item name="android:activatedBackgroundIndicator">@drawable/gruas_activated_background_holo_light</item>
+
+
+    </style>
+</resources>

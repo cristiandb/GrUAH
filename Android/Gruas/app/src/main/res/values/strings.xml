@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- -VALORES APLICACIÓN -->
+    <!-- GESTIÓN -->
+    <!-- JSON LOGIN -->
+    <!--<string name="urlGestionLogin">http://172.22.4.142:8080/SistemaGestion/rest/profesionales/login</string>-->
+    <string name="urlGestionLogin">http://10.0.3.2:8888/login</string> <!-- http://10.0.3.2:8888/login -->
+    <string name="idLogin">dni</string>
+    <string name="passLogin">pass</string>
+    <string name="resultadoLogin">resultado</string>
+    <string name="respuestaEsperadaLogin">ok</string>
+    <!-- JSON REGISTRO-->
+    <!--<string name="urlGestionRegistro">http://172.22.4.142:8080/SistemaGestion/rest/profesionales/add</string>-->
+    <string name="urlGestionRegistro">http://10.0.3.2:8888/registro</string>
+    <string name="idRegistro">DNIprofesional</string>
+    <string name="nombreRegistro">nombreProfesional</string>
+    <string name="apellidosRegistro">apellidosProfesional</string>
+    <string name="categoriaRegistro">categoriaProfesional</string>
+    <string name="categoriaRegistroGruas">grua</string>
+    <string name="passRegistro">password</string>
+    <string name="latRegistro">latitud</string>
+    <string name="longRegistro">longitud</string>
+    <string name="radioRegistro">radio</string>
+    <string name="resultadoRegistro">resultado</string>
+    <string name="respuestaEsperadaRegistro">ok</string>
+
+    <!-- Datos GrUAHs -->
+    <string name="db_name">gruas</string>
+    <string name="url_replication">http://10.0.3.2:5984/</string> <!-- 10.0.2.2 para simuladores android excepto genymotion (para el 10.0.3.2) Antes: http://10.0.3.2:5984/-->
+    <string name="filtro_puller">android/recuperarServiciosNuevos</string>
+    <string name="filtro_pusher">subirDocuments</string>
+    <string name="view_service_for_lista_curso">serviciosPorCurso</string>
+    <string name="view_service_for_lista_pendiente">serviciosPorPendiente</string>
+    <string name="view_service_for_lista_esperando_aprobacion">serviciosPorEsperandoAprobacion</string>
+    <string name="view_service_for_lista_historial">serviciosPorHistorial</string>
+    <string name="view_service_for_lista_all_services">serviciosAll</string>
+
+    <string name="app_name">Gruas</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="label_registro"><span style="text-decoration: underline">Registrarse</span></string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- Se añaden distintas opciones en el menú gracias a un array -->
+    <string-array name="nav_options">
+        <item>Servicio En Curso</item>
+        <item>Servicios Pendientes</item>
+        <item>Esperando aprobación</item>
+        <item>Historial Servicios</item>
+        <item>Estadísticas</item>
+        <item>Salir</item>
+    </string-array>
+
+    <!-- Se añaden los iconos de cada una de las opciones -->
+    <array name="navigation_iconos">
+        <item>@drawable/ic_service</item>
+        <item>@drawable/ic_waiting</item>
+        <item>@drawable/ic_wait_ap</item>
+        <item>@drawable/ic_calendar</item>
+        <item>@drawable/ic_statistics</item>
+        <item>@drawable/ic_logout</item>
+    </array>
+
+    <string name="title_activity_inicio">GrUAHs</string>
+    <string name="title_activity_vista_servicio">VistaServicio</string>
+    <string name="loginUsuario">Usuario</string>
+    <string name="loginPassword">Password</string>
+    <string name="botonLogin">Autentificarse</string>
+    <string name="tituloLogin">GrUAHs</string>
+    <string name="title_activity_registo">Registo</string>
+    <string name="textoInicioRegistro">No hay ningún usuario vinculado a la aplicación. Bienvenido al registro de nuevo usuario.</string>
+    <string name="botonInicioRegistro"><![CDATA[Iniciar registro >>]]></string>
+    <string name="tituloInicioRegistro">Registro de nuevo gruista</string>
+
+
+</resources>

@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="#FFF"
+    >
+
+    <TextView
+        android:text="Zona de actuación"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#FF8800"
+        android:id="@+id/tituloRegistroMapa"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Selecciona un punto en el mapa y utiliza la barra deslizante para determinar su radio de actuación en km"
+        android:id="@+id/descripcionMapa"
+        android:layout_below="@+id/tituloRegistroMapa"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_centerHorizontal="true"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_below="@+id/descripcionMapa"
+        android:layout_marginTop="15dp"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_below="@+id/map"
+        android:layout_centerHorizontal="true"
+        android:progress="0"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/radioMapa"
+        android:layout_width="match_parent"
+        android:text="Radio: 0 km"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBar"
+        android:textAlignment="center"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalización de registro >>"
+        android:id="@+id/SiguienteMapas"
+        android:layout_centerVertical="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_below="@+id/radioMapa"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        />
+
+
+
+</RelativeLayout>
